@@ -1,28 +1,15 @@
-== README
+This is a sample app to show how to write endpoints for posting images from mobile using bcrypt.
+Feel free to play around with it.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Setup
 
-Things you may want to cover:
+* Pull the repo
+* Navigate into the direcory for the repo locally
+* Assuming you have bundler set up on your machine
+* Run `bundle install` and `rake db:migrate`
+* Set up your `secrets.yml` file in config based on the `example_secrets.yml file`
+* Run your local server and open on the associated port
+* Upload some images :) 
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Note - this wont work on Heroku since it's not setup with AWS and Heroku will delete your assets.
+It's just ment to be a sample app not a production app.
