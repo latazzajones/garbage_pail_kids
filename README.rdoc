@@ -4,12 +4,12 @@ Feel free to play around with it.
 # Setup
 
 * Pull the repo
-* Navigate into the direcory for the repo locally
+* Navigate into the directory for the repo locally
 * Assuming you have bundler set up on your machine
 * Run `bundle install` and `rake db:migrate`
 * Set up your `secrets.yml` file in config based on the `example_secrets.yml file`
 * Run your local server and open on the associated port
-* Upload some images :) 
+* Upload some images :)
 
 Note - this wont work on Heroku since it's not setup with AWS and Heroku will delete your assets.
 It's just ment to be a sample app not a production app.
