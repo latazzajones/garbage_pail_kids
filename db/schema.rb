@@ -11,9 +11,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150909160123) do
+ActiveRecord::Schema.define(version: 20151015210718) do
 
-  create_table "unicorns", force: true do |t|
+  create_table "garbage_pail_kids", force: true do |t|
     t.string   "name"
     t.string   "photo_file_name"
     t.string   "photo_content_type"

@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe Unicorn, type: :model do
+RSpec.describe GarbagePailKid, type: :model do
 
   it { should validate_presence_of :photo }
 
