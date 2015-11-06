@@ -1,0 +1,6 @@
+%h1 Garbage Pail Kids
+-@kids.each do |kid|
+  .kid
+    %h2
+      =kid.name
+    =image_tag kid.photo

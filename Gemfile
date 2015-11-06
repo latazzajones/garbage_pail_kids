@@ -8,6 +8,7 @@ group :development, :test do
 end
 
 gem "paperclip", "~> 4.3"
+gem "haml", "~> 4.0"
 gem 'rails', '4.1.1'
 gem 'sqlite3'
 gem 'sass-rails', '~> 4.0.3'
