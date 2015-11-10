@@ -5,6 +5,7 @@ group :development, :test do
   gem 'factory_girl_rails', '~> 4.5'
   gem 'spring'
   gem 'shoulda-matchers'
+  gem 'pry-rails'
 end
 
 gem "paperclip", "~> 4.3"
