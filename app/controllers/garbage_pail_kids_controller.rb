@@ -1,6 +1,10 @@
 # Manages the GarbagePailKids
 class GarbagePailKidsController < ApplicationController
-  
+
+  def new
+    @kid = GarbagePailKid.new
+   end
+
   def create
     photo = params[:garbage_pail_kid][:photo]
     content_type = params[:garbage_pail_kid][:content_type]

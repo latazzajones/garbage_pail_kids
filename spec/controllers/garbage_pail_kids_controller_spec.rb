@@ -26,4 +26,21 @@ RSpec.describe GarbagePailKidsController, type: :controller do
                                                 format: :json}.to change(GarbagePailKid, :count).by 1
     end
   end
+
+  describe 'GET :new' do
+    before { get :new }
+
+    it 'should send new to GarbagePailKid' do
+      expect(assigns(:kid)).to be_a_new(GarbagePailKid)
+    end
+
+    it 'should render the expected template' do
+      expect(response).to render_template('new')
+    end
+
+    it 'should respond with success' do
+      expect(response.status).to eq 200
+    end
+
+  end
 end
